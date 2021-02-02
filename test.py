@@ -12,7 +12,7 @@ soup = BeautifulSoup(contents, 'html.parser')
 # Print the entire html document with indenting
 # print(soup.prettify())
 
-# # Print the first occurrence of a particular tag
+# Print the first occurrence of a particular tag
 # print(soup.a)
 # print(soup.p)
 # print(soup.li)
@@ -22,7 +22,7 @@ soup = BeautifulSoup(contents, 'html.parser')
 # print(all_anchor_tags)
 # print(all_anchor_tags[1])
 
-# # Get the text inside a tag, or the value of a particular tag attribute (like href)
+# Get the text inside a tag, or the value of a particular tag attribute (like href)
 # for tag in all_anchor_tags:
 #     # print(tag.getText())
 #     print(tag.get('href'))
