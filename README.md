@@ -2,4 +2,5 @@
 
 A #100DaysofCode project
 
-WIP: learning how to scrape websites for data using Python's BeautifulSoup4 module
+This project scrapes a Top 100 movies list (published from 100 to 1), extracts the movie titles, and writes them to a 
+text file from 1 to 100, with each title on its own line.
